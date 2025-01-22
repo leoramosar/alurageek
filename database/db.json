@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "632d",
+      "title": "nuevo",
+      "price": "45",
+      "imgUrl": "https://pics.filmaffinity.com/dragonball_evolution-890656174-mmed.jpg"
+    },
+    {
+      "title": "lisanna",
+      "price": "34",
+      "imgUrl": "https://pics.filmaffinity.com/dragonball_evolution-890656174-mmed.jpg",
+      "id": "57c3"
+    },
+    {
+      "id": "f649",
+      "title": "leo",
+      "price": "34",
+      "imgUrl": "https://pics.filmaffinity.com/dragonball_evolution-890656174-mmed.jpg"
+    },
+    {
+      "id": "eb2a",
+      "title": "sdf",
+      "price": "45",
+      "imgUrl": "https://pics.filmaffinity.com/dragonball_evolution-890656174-mmed.jpg"
+    }
+  ]
+}

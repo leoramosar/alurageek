@@ -1,1 +1,98 @@
-start project
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>AluraGeek</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        Alura Geek
+      </nav>
+
+      <section class="my_products">
+        <h1>Mis productos</h1>
+        <div class="container">
+      
+          <div class="content_form">
+            <form>
+              <label >Agregar producto:</label>
+              <input
+                id="input_title"
+                type="text"
+                placeholder="Nombre del producto"
+              />
+              <input id="input_price" type="text" placeholder="Precio" />
+
+              <input
+                id="input_img"
+                type="text"
+                src=""
+                alt=""
+                placeholder="Link de la imágen:"
+              />
+              <div class="form_button">
+                <button id="add_button">Agregar producto</button>
+              </div>
+            </form>
+            <div class="link_content">
+              <span>Puede copiar estos links</span>
+              <div class="link-copy">
+                <div class="">
+                  <span class="link_img">../assets/images/card.jpeg</span>
+                  <button onclick="copyToClip(this)">Copiar</button>
+                </div>
+                <div class="">
+                  <span class="link_img">../assets/images/card2.jpeg</span>
+                  <button onclick="copyToClip(this)">Copiar</button>
+                </div>
+                <div class="">
+                  <span class="link_img">../assets/images/card3.jpeg</span>
+                  <button onclick="copyToClip(this)">Copiar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+          <div id="container_products" class="content_products add_card">
+            <p class="no_activity">No hay actividades</p>
+          </div>
+        </div>
+      </section>
+      <div class="modal_edit" id="modal_edit">
+        <div class="content_modal">
+          <form data-form>
+            <label >Actualizar la información de la actividad:</label>
+            <input
+              id="edit_title"
+              type="text"
+              placeholder="Nombre de la actidad"
+            />
+            <input
+              id="edit_price"
+              type="text"
+              placeholder="Precio del producto:"
+            ></input>
+            <input
+              id="edit_img"
+              type="text"
+              src=""
+              alt=""
+              placeholder="Link de la imágen:"
+            />
+            <div class="form_button_update">
+              <button class="close" id="close_button">Close</button>
+              <button class="update" id="update_button">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer></footer>
+    </main>
+    <!-- <script src="scripts/index.js"></script> -->
+    <script src="./js/controllers/main.js"></script>
+  </body>
+</html>
